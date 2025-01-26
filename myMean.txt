@@ -1,0 +1,38 @@
+
+R version 4.4.2 (2024-10-31) -- "Pile of Leaves"
+Copyright (C) 2024 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin20
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[R.app GUI 1.81 (8462) x86_64-apple-darwin20]
+
+[History restored from /Users/chloesylvester/.Rapp.history]
+
+> #define the dataset. use the variable "assignment2"
+> assignment2 <- c(16,18,14,22,27,17,19,17,17,22,20,22)
+> 
+> #define the function. use "myMean" for the numeric vectors
+> myMean <- functions(asignment2){returns(sum(assignment2)/length(assignment2))}
+Error: unexpected '{' in "myMean <- functions(asignment2){"
+> myMean <- function(assignment2){return(sum(assignment2)/length(assignment2))}
+> 
+> #evaluate the function with the dataset
+> result <- myMean(assignment2)
+> 
+> #print the results
+> print(result)
+[1] 19.25
+> 
